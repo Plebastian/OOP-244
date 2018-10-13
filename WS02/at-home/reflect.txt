@@ -1,0 +1,9 @@
+reflect.txt
+Sebastian Djurovic
+
+1. We need to allocate new dynamic memory when we increase the size of an existing array, because we cannot just go beyond the limit of the allocated array size ;without doing so --and the compiler allowing it-- it will be overwriting potencially very critical data following the allocated array. This happens because arrays are stored in consecutive memory. Though in theory it's possible to append a new cell after the original array it is bad practice. 
+2. The kingdom structure stores a char array that is not allocated with new[], new or malloc(old C method), once the class/ structure has been termenated the memory will be freed without the need for a destructor/ delete. So no we will not have a memory leak. 
+3. It know which function to choose based on the data type and number of arguments the function takes. 
+4. I learned a method of reallocating an array, the need to delete arrays and pointers. 
+Quiz 2 Reflection:
+I really just didn't study of this quiz so I forgot the 3 different methods used in a class, being accessors(getters), mutator(setters) and managers (constructors and descructors).   

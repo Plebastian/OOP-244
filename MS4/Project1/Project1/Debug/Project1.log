@@ -1,0 +1,6 @@
+﻿  NonPerishable.cpp
+c:\users\spdjurovic\desktop\ms4\nonperishable.cpp(147): warning C4800: 'char': forcing value to bool 'true' or 'false' (performance warning)
+c:\users\spdjurovic\desktop\ms4\nonperishable.cpp(265): warning C4805: '==': unsafe mix of type 'int' and type 'bool' in operation
+c:\users\spdjurovic\desktop\ms4\nonperishable.cpp(333): warning C4800: 'int': forcing value to bool 'true' or 'false' (performance warning)
+  Project1.vcxproj -> C:\Users\spdjurovic\Desktop\MS4\Project1\Debug\Project1.exe
+  Project1.vcxproj -> C:\Users\spdjurovic\Desktop\MS4\Project1\Debug\Project1.pdb (Partial PDB)

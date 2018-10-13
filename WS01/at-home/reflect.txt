@@ -1,0 +1,10 @@
+reflect.txt
+
+What is a namespace?
+	A namespace is another way of keeping information seperated into a scope. This makes it easier to group functions, classes and variables within that scope. This also allows us to simply make oparator overloads, meaning we may have 2 or more functions with the same name and will not get an error as long as they are in seperate scopes, or if they take different arguments. 
+Why header files are needed? 
+	Header files are needed to seperate methods from the main function, this helps both with organizations and discribution of work flow amonge work groups such that multiple people can work on the same project and not disturb the others work. 
+Why do we now compile header files?
+	There's no point to compile header files they are a prepocessor directive and hold several definitions and declarations, where they Cpp file impliments them, and the cpp file that has all the functions is the thing that gets compiled not the header file.
+Explain why you should never include .cpp files in another file. 
+	We dont include cpp files in cpp files because it might cause linker errors, effect global variables and other functions. It also makes it had to keep track of the project whey being worked on by multiple people. All in all it's just bad practice.

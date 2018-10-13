@@ -1,0 +1,35 @@
+Quiz 5
+Question 1:
+(a)
+Inheritance is transitive but not commutative relationship, as inheritances allows the derived classes to inherit from the base classes. For example a
+human is an animal but an animal is not nessesarly a 'human', because an animal could also be a 'Grey Wolf'. 
+
+	 _______      _______      _______
+	|		|    | Homo  |    | Human |
+	|Animal |<---|       |<---|		  |
+	|_______|    |_______|    |_______|
+	    ^
+	    |
+	 _________		 _________		
+	|Carnivora|		|Grey Wolf|	
+	|_________|<----|_________|	
+
+Question 2:
+(a)
+1.Early binding -- Based on the object's static type.
+2.Dynamic Dispatch -- Based on the ohject's dynamic type.
+
+Question 3:
+(a)
+ColouredPoint::colourPoint():Point(){
+	red = 0;
+	green = 0;
+	blue = 0;
+};
+
+(b)
+ColourPoint::moveTo(int x, int y){
+	if(red != 0 && green != 0 && blue != 0){
+		Point::moveTo(x,y);
+	}
+}
